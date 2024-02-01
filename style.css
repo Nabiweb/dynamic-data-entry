@@ -1,0 +1,108 @@
+body {
+    font-family:Courier New, monospace;
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    color: white;
+    margin-left: 5px;
+}
+
+#app {
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: linear-gradient(green,rgb(10, 173, 91),rgb(5, 107, 73));
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+p{
+    text-align: center;
+}
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid rgb(28, 137, 93);
+    border-radius: 5rem;
+    background-color: rgb(217, 207, 207);
+    font-family: American Typewriter, serif;
+}
+
+button {
+    background-image: linear-gradient(green,rgb(10, 173, 91),rgb(5, 107, 73));
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#totalIncome {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-image: linear-gradient(green,rgb(10, 173, 91),rgb(5, 107, 73));
+    color: #fff;
+}
+
+#taxationTable {
+    width: 100%;
+    margin: 0;
+}
+
+/* Media Query for Responsive Design */
+@media screen and (max-width: 600px) {
+    input {
+        width: calc(100% - 16px); /* Adjust width for smaller screens */
+    }
+
+    #app {
+        margin: 5px;
+        padding: 5px;
+    }
+
+    #taxationTable {
+        position: static;
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+img{
+    height: 5rem;
+    background-color: transparent;
+}
+
